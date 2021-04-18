@@ -6,10 +6,4 @@
 
 // arrayMadness([4, 5, 6], [1, 2, 3]); // returns true since 4 ** 2 + 5 ** 2 + 6 ** 2 > 1 ** 3 + 2 ** 3 + 3 ** 3
 
-function arrayMadness(a, b) {
-    let aSum = a.reduce((a,c) => a + c**2)
-    console.log(aSum)
-    let bSum = b.reduce((a,c) => a + c**2)
-    console.log(bSum)
-    return aSum > bSum
-  }
+const arrayMadness = (a, b) => a.map(num => num**2).reduce((a,c) => a+c) > b.map(num => num**3).reduce((a,c) => a+c)
