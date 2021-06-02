@@ -5,6 +5,5 @@
 // The returned format must be correct in order to complete this challenge.
 //     Don't forget the space after the closing parentheses!
 
-function createPhoneNumber(numbers) {
-    return `(${numbers[0]}${numbers[1]}${numbers[2]}) ${numbers[3]}${numbers[4]}${numbers[5]}-${numbers[6]}${numbers[7]}${numbers[8]}${numbers[9]}`
-}
+const createPhoneNumber = n => `(${n[0]}${n[1]}${n[2]}) ${n[3]}${n[4]}${n[5]}-${n[6]}${n[7]}${n[8]}${n[9]}`
+
