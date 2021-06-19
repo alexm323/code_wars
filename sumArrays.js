@@ -17,8 +17,8 @@
 
 // Sum Numbers
 const sum = (nums) => {
-    if(nums.length === 0){
+    if (nums.length === 0) {
         return 0
     }
-    return nums.reduce((a,c) => a+c)
+    return nums.reduce((a, c) => a + c)
 }
