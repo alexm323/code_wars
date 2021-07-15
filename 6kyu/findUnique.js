@@ -24,3 +24,5 @@ function findUniq(arr) {
     if(value === 1)return Number(key)
   }
   }
+
+console.log(findUniq([ 0, 0, 0.55, 0, 0 ]),0.55)
